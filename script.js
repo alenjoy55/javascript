@@ -60,8 +60,8 @@
 // console.log(c);
 
 //comparision (==,!=,<,>,<=,>=,===,!==)
-let a=10
-let b='20'
+// let a=10
+// let b='20'
 // console.log(a===b);
 // console.log(a!=b);
 // console.log(a!==b);
@@ -70,12 +70,110 @@ let b='20'
 // console.log(a!=b && a==10);
 // console.log(a!=b || a==10);
 
+function sample(){
+    // let result=document.getElementById("name")
+    // console.log(result.value);
+    // document.getElementById("display").innerHTML=result.value
 
+    // let result=document.getElementById("name").value
+    // console.log(result);
+    // let h2=document.getElementById("display")
+    // h2.innerHTML=result.value
+}
+// function add(){
+//     let no1=parseInt(document.getElementById("no1").value)
+//     let no2=parseInt(document.getElementById("no2").value)
+//     let h2=document.getElementById("display")
+//     h2.innerHTML=no1+no2
+// }
+// function sub(){
+//     let no1=parseInt(document.getElementById("no1").value)
+//     let no2=parseInt(document.getElementById("no2").value)
+//     let h2=document.getElementById("display")
+//     h2.innerHTML=no1-no2
+// }
+// function div(){
+//     let no1=parseInt(document.getElementById("no1").value)
+//     let no2=parseInt(document.getElementById("no2").value)
+//     let h2=document.getElementById("display")
+//     h2.innerHTML=no1/no2
+// }
+// function mul(){
+//     let no1=parseInt(document.getElementById("no1").value)
+//     let no2=parseInt(document.getElementById("no2").value)
+//     let h2=document.getElementById("display")
+//     h2.innerHTML=no1*no2
+// }
+// function mod(){
+//     let no1=parseInt(document.getElementById("no1").value)
+//     let no2=parseInt(document.getElementById("no2").value)
+//     let h2=document.getElementById("display")
+//     h2.innerHTML=no1%no2
+// }
+// function eql(){
+//     let a=parseInt(document.getElementById("a").value)
+//     let b=parseInt(document.getElementById("b").value)
+//     let h2=document.getElementById("display")
+//     if(a==b){
+//         h2.innerHTML='equal'
+//     }
+//     else if(a!=b){
+//         h2.innerHTML='Not equal'
+//     }
+// }
+// function city(){
+//     let a=document.getElementById("a").value
+//     let h2=document.getElementById("display")
+//     if (a=="delhi"){
+//         h2.innerHTML='red fort'
+//     }
+//     else if(a=="Agra"){
+//         h2.innerHTML="Taj mahal"
+//     }
+//     else if(a=="jaipur"){
+//         h2.innerHTML="Taj mahal"
+//     }
+// }
 
-
+// function day(){
+//     let day=document.getElementById("day").value
+//     let h2=document.getElementById("dis")
+//     if(day==1){
+//         h2.innerHTML="Sunday"
+//     }
+//     else if(day==2){
+//         h2.innerHTML="Monday"
+//     }
+//     else if(day==3){
+//         h2.innerHTML="Tuesday"
+//     }
+//     else if(day==4){
+//         h2.innerHTML="Wednesday"
+//     }
+//     else if(day==5){
+//         h2.innerHTML="Thursday"
+//     }
+//     else if(day==6){
+//         h2.innerHTML="Friday"
+//     }
+//     else if(day==7){
+//         h2.innerHTML="Saturday"
+//     }
+// }
+function bike(){
+    let price=document.getElementById("price").value
+    let h2=document.getElementById("ds")
+    if(price>=1000000){
+        t=price*0.15
+        h2.innerHTML=t
+    }
+    else if(price>=600000 && price<=10000000){
+        t=price*0.10
+        h2.innerHTML=t
+    }
+    else if(price<=500000){
+        t=price*0.05
+        h2.innerHTML=t
+    }
  
-
-
-
-
-
+}
