@@ -160,20 +160,92 @@ function sample(){
 //         h2.innerHTML="Saturday"
 //     }
 // }
-function bike(){
-    let price=document.getElementById("price").value
-    let h2=document.getElementById("ds")
-    if(price>=1000000){
-        t=price*0.15
-        h2.innerHTML=t
-    }
-    else if(price>=600000 && price<=10000000){
-        t=price*0.10
-        h2.innerHTML=t
-    }
-    else if(price<=500000){
-        t=price*0.05
-        h2.innerHTML=t
-    }
+// function bike(){
+//     let price=document.getElementById("price").value
+//     let h2=document.getElementById("ds")
+//     if(price>=1000000){
+//         t=price*0.15
+//         h2.innerHTML=t
+//     }
+//     else if(price>=600000 && price<=10000000){
+//         t=price*0.10
+//         h2.innerHTML=t
+//     }
+//     else if(price<=500000){
+//         t=price*0.05
+//         h2.innerHTML=t
+//     }
  
+// }
+// function loop(){
+//     let a=document.getElementById("a").value
+    // for(let i=1;i<=10;i++){
+    //     console.log(i);
+        
+//while loop
+    // }
+    // let i=1
+    // while(i<=10){
+    //     console.log(i);
+    //     i++
+        
+    // }
+//do while loop
+//     let i=1
+//     do{
+//         console.log(i);
+//         i++
+        
+//     }
+//     while(i<=10)
+
+// }
+
+// function numbers(){
+//     let n1=document.getElementById("n1").value
+//     let n2=document.getElementById("n2").value
+//     for(let i=n1;i<=n2;i++){
+//         // console.log(i);
+//         if(i%2!=0){
+//             console.log(i);
+//         }
+//     }
+
+// }
+
+// function multiplication(){
+//     let n1=document.getElementById("n1").value
+//     let i=1
+//     do{
+//         console.log(i,'*',n1,'=',i*n1);
+//         i++
+//     }
+//     while(i<=10)
+// }
+// sum of even
+// function sum(){
+//     let sum1=document.getElementById("sum1").value
+//     let sum2=document.getElementById("sum2").value
+//     let s=0
+//     for(let i=sum1;i<=sum2;i++){
+//         if(i%2==0){
+//             s+=i
+//         }
+//     }
+//     console.log(s);
+
+
+// }
+
+function sum(){
+    let sum1=document.getElementById("sum1").value
+    let sum2=document.getElementById("sum2").value
+    let s=0
+    for(let i=sum1;i<=sum2;i++){
+        console.log(s);
+    }
+    s+=i
+    console.log(i);
+    
+        
 }
