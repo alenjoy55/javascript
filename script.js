@@ -237,15 +237,93 @@ function sample(){
 
 // }
 
-function sum(){
-    let sum1=document.getElementById("sum1").value
-    let sum2=document.getElementById("sum2").value
-    let s=0
-    for(let i=sum1;i<=sum2;i++){
-        console.log(s);
-    }
-    s+=i
-    console.log(i);
+// function sum(){
+//     let sum1=document.getElementById("sum1").value
+//     let sum2=document.getElementById("sum2").value
+//     let s=0
+//     for(let i=sum1;i<=sum2;i++){
+//         console.log(s);
+//     }
+//     s+=i
+//     console.log(i);
     
         
-}
+// }
+
+//string methods
+// let a='  welcome  ' 
+// console.log(a);
+// console.log(a.length);
+// console.log(a[6]);
+// console.log(a.charAt(2));
+// console.log(a.concat(' ','to all'));
+// console.log(a.endsWith('e'));
+// console.log(a.startsWith('w'));
+// console.log(a.toUpperCase());
+// console.log(a.toLowerCase());
+// console.log(a.trim());
+// console.log(a.trimEnd());
+// console.log(a.trimStart());
+
+// array methods
+// let a=['apple','orange','dragonfruit']
+// console.log(a.length);
+// console.log(a[0]);
+// a[0]='APPLE'
+// console.log(a);
+// a.push(['kiwi','mango'])
+// console.log(a);
+// a.pop()
+// console.log(a);
+// a.shift()
+// console.log(a);
+// a.unshift('kiwi')
+// console.log(a);
+
+// let b='hello'
+// for(i in b){
+//     console.log(i);
+    
+// }
+
+
+// for(i of a){
+//     console.log(i);
+    
+// }
+//userdefined function
+// function fun1(a){
+//     console.log('fun1',a);
+    
+// }
+// fun1('helo')
+
+//nameless function
+// const data=function(a){
+//     console.log('data',a);
+    
+// }
+// data('helo')
+
+//arrow function
+// const data=(a)=>console.log('arrow fun',a);
+
+// data('helo')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
