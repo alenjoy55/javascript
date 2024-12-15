@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee management</title>
+</head>
+<style>
+    #edit_form{
+        display:none;
+    }
+</style>
+</head>
+<body>
+<table>
+    <thead>
+        <tr>
+        <td>ID</td>
+        <td>NAME</td>
+        <td>POSITION</td>
+        <td>SALARY</td>
+    </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+</table>
+    <form id="add_Form">
+        <input type="text" name="" id="id" placeholder="Enter Id">
+        <input type="text" name="" id="name" placeholder="Enter Name">
+        <input type="text" name="" id="Position" placeholder="Position">
+        <input type="text" name="" id="Salary" placeholder="Salary">
+        <input type="submit" value="Add">
+    </form>
+    <form id="edit_form">
+        <input type="text" name="" id="e_id" placeholder="Enter Id">
+        <input type="text" name="" id="e_name" placeholder="Enter Name">
+        <input type="number" name="" id="e_position" placeholder="Position">
+        <input type="number" name="" id="e_salary" placeholder="Salary">
+
+        <input type="submit" value="Update">
+    </form>
+    <script src="emp.js"></script>
+</body>
+</html>
