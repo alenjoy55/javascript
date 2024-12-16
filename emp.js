@@ -1,4 +1,4 @@
-let data =[{id:'1',name:'alen',position:'manager',salary:'65000'},{id:'2',name:'deepak',position:'staff',salary:'35000'},{id:'3',name:'ibin',position:'chairman',salary:'100000000'},]
+let data =[{id:'1',name:'alen',position:'manager',salary:65000},{id:'2',name:'deepak',position:'staff',salary:35000},{id:'3',name:'ibin',position:'chairman',salary:75000},]
 
 function display(){
     let tbody= document.querySelector("tbody")
@@ -19,7 +19,7 @@ function display(){
         tr.appendChild(position_td)
         
         let salary_td=document.createElement("td")
-        salary_td.innerHTML=user.position
+        salary_td.innerHTML=user.salary
         tr.appendChild(salary_td)
 
         let edit_td = document.createElement("td")
